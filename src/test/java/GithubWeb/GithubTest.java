@@ -13,7 +13,7 @@ public class GithubTest extends BaseClass {
         github.openGitUrl();
         Thread.sleep(2000);
         github.clickOnDocs();
-        Thread.sleep(2000);
+        Thread.sleep(3000);
     }
 
     @Test
