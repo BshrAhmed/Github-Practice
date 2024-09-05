@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 public class GithubTest extends BaseClass {
 
-    @Test(groups = {"smoke"})
+    @Test
     public void mainPageMethod() throws InterruptedException {
         GithubPages github = new GithubPages(driver);
         github.openGitUrl();
@@ -16,7 +16,7 @@ public class GithubTest extends BaseClass {
         Thread.sleep(2000);
     }
 
-    @Test(groups = {"smoke"})
+    @Test
     public void signInMethod() throws InterruptedException {
         GithubPages signIn = new GithubPages(driver);
         signIn.openGitUrl();
