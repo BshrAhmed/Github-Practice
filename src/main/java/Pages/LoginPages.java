@@ -29,7 +29,7 @@ public class LoginPages {
 
     public void enterPassword() {
         WebElement Password = driver.findElement(password);
-        Password.sendKeys("Bshr@123@123");
+        Password.sendKeys("Bsh4443");
     }
 
     public void clickOnLoginBtn(){
